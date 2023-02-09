@@ -7,7 +7,7 @@
         <!-- Sidebar header -->
         <div class="sidebar-section">
             <div class="sidebar-section-body d-flex justify-content-center">
-                <h5 class="sidebar-resize-hide flex-grow-1 my-auto"><i class="ph-windows-logo ph-1x"></i> CMS ROMADAN V.1</h5>
+                <h6 class="sidebar-resize-hide flex-grow-1 my-auto"><i class="ph-windows-logo ph-1x"></i> DASHBOARD ROMADAN</h6>
 
                 <div>
                     <button type="button" class="btn btn-flat-white btn-icon btn-sm rounded-pill border-transparent sidebar-control sidebar-main-resize d-none d-lg-inline-flex">

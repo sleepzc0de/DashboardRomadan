@@ -34,13 +34,13 @@
 </head>
 
 <body>
-    {{-- @include('layouts.dashboard.navbar') --}}
+    @include('layouts.dashboard.navbar')
 
 
     <!-- Page content -->
     <div class="page-content">
 
-        {{-- @include('layouts.dashboard.sidebar') --}}
+        @include('layouts.dashboard.sidebar')
 
 
         <!-- Main content -->
@@ -49,7 +49,7 @@
             <!-- Inner content -->
             <div class="content-inner">
 
-                @include('layouts.dashboard.page_header')
+                {{-- @include('layouts.dashboard.page_header') --}}
 
                 <!-- Content area -->
                 <div class="content">

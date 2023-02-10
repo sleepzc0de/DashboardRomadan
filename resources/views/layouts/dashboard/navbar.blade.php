@@ -386,7 +386,7 @@
                  </a>
              </li> -->
 
-             <li class="nav-item nav-item-dropdown-lg dropdown ms-lg-2">
+             {{-- <li class="nav-item nav-item-dropdown-lg dropdown ms-lg-2">
                  <a href="#" class="navbar-nav-link align-items-center rounded-pill p-1" data-bs-toggle="dropdown">
                      <div class="status-indicator-container">
                          <img src="{{asset('webromadan/be/images/demo/users/face11.jpg')}}" class="w-32px h-32px rounded-pill" alt="">
@@ -423,7 +423,7 @@
                          Logout
                      </a>
                  </div>
-             </li>
+             </li> --}}
          </ul>
      </div>
  </div>

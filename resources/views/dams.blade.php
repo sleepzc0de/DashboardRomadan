@@ -24,7 +24,7 @@
 								</div>
 
 								<div class="card-body">
-									<iframe class="w-100" height="450" src="https://lookerstudio.google.com/embed/reporting/465dcbc8-d600-40d6-be68-63b6e31b8560/page/p_d225045h1c" frameborder="0" style="border:0;" allowfullscreen></iframe>
+									<iframe class="w-100" height="450" src="https://lookerstudio.google.com/embed/reporting/607f5c07-ef1e-4ec5-8cdd-7934c8991a0d/page/sn63C" frameborder="0" style="border:0" allowfullscreen></iframe>
 								</div>
 							</div>
 				    	</div>

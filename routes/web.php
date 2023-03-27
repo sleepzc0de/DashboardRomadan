@@ -28,3 +28,6 @@ Route::get('/itkp', function () {
 Route::get('/weekly-report', function () {
     return view('weekly');
 });
+Route::get('/iku', function () {
+    return view('iku');
+});

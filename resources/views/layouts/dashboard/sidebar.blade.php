@@ -71,6 +71,14 @@
                         </span>
                     </a>
                 </li>
+                 <li class="nav-item ">
+                    <a href="{{url('iku')}}" class="nav-link">
+                        <i class="ph-briefcase"></i>
+                        <span>
+                            Iku
+                        </span>
+                    </a>
+                </li>
             </ul>
         </div>
         <!-- /main navigation -->

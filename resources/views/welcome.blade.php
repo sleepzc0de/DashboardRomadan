@@ -69,8 +69,21 @@
 								</div>	
 							</div>
                             <div class="row">
-                                <div class="col-lg-2">
-                                </div>
+                               <div class="col-lg-4">
+                                    <a href="{{url('iku')}}">
+                                    <!-- Members online -->
+									<div class="card bg-primary text-white text-center">
+										<div class="card-body">
+											<div>
+												<h1 class="mb-0">IKU</h1>
+						                	</div>
+										</div>
+
+										<div class="rounded-bottom overflow-hidden mx-3" id="members-online"></div>
+									</div>
+									<!-- /members online -->
+                                    </a>
+								</div>
 
 								 <div class="col-lg-4">
                                     <a href="{{url('dams')}}">

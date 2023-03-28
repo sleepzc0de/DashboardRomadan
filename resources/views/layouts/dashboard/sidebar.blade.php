@@ -27,12 +27,27 @@
         <div class="sidebar-section">
             <ul class="nav nav-sidebar" data-nav-type="accordion">
                 <!-- Main -->
+
+                 <li class="nav-item-header pt-0">
+                    <div class="text-uppercase fs-sm lh-sm opacity-50 sidebar-resize-hide">Dashboard Romadan</div>
+                    <i class="ph-dots-three sidebar-resize-show"></i>
+                </li>
+                 <li class="nav-item ">
+                    <a href="{{url('/')}}" class="nav-link {{Request::is('/')?'active':''}}">
+                        <i class="ph-aperture"></i>
+                        <span>
+                            HOME
+                        </span>
+                    </a>
+                </li>
+
+
                 <li class="nav-item-header pt-0">
-                    <div class="text-uppercase fs-sm lh-sm opacity-50 sidebar-resize-hide">DASHBOARD</div>
+                    <div class="text-uppercase fs-sm lh-sm opacity-50 sidebar-resize-hide">Interface Dashboard</div>
                     <i class="ph-dots-three sidebar-resize-show"></i>
                 </li>
                 <li class="nav-item ">
-                    <a href="{{url('/dams')}}" class="nav-link">
+                    <a href="{{url('/dams')}}" class="nav-link {{Request::is('dams')?'active':''}}">
                         <i class="ph-aperture"></i>
                         <span>
                             DAMS
@@ -40,7 +55,7 @@
                     </a>
                 </li>
                 <li class="nav-item ">
-                    <a href="{{url('ipa')}}" class="nav-link">
+                    <a href="{{url('ipa')}}" class="nav-link {{Request::is('ipa')?'active':''}}">
                         <i class="ph-cloud-rain"></i>
                         <span>
                             Indeks Pengelolaan Aset (IPA)
@@ -56,7 +71,7 @@
                     </a>
                 </li>
                 <li class="nav-item ">
-                    <a href="{{url('itkp')}}" class="nav-link">
+                    <a href="{{url('itkp')}}" class="nav-link {{Request::is('itkp')?'active':''}}">
                         <i class="ph-egg-crack"></i>
                         <span>
                             Indeks Tata Kelola Pengadaan (ITKP)
@@ -64,7 +79,7 @@
                     </a>
                 </li>
                 <li class="nav-item ">
-                    <a href="https://kemenkeu.sharepoint.com/:p:/s/ROMADANPASTI-WeeklyReportBiroMadan/EcNdkwMPI4NEvRZfPTKPgFMBgm3-MmWM4cMjohw3hEKB9g?e=dNcgLA" target="_blank" class="nav-link">
+                    <a href="{{url('weekly-report')}}" class="nav-link {{Request::is('weekly-report')?'active':''}}">
                         <i class="ph-graph"></i>
                         <span>
                             Weekly Report
@@ -72,7 +87,7 @@
                     </a>
                 </li>
                  <li class="nav-item ">
-                    <a href="{{url('iku')}}" class="nav-link">
+                    <a href="{{url('iku')}}" class="nav-link {{Request::is('iku')?'active':''}}">
                         <i class="ph-briefcase"></i>
                         <span>
                             Iku

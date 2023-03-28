@@ -19,6 +19,17 @@
 				<!-- Content area -->
 				<div class="content">
 
+					<div class="col-lg-12">
+										<div class="alert alert-primary alert-icon-start alert-dismissible fade show">
+											<span class="alert-icon bg-primary text-white">
+												<i class="ph-bell-ringing"></i>
+											</span>
+											 <marquee><span class="fw-semibold">Apabila ada yang kurang lengkap di dashboard ini, harap menghubungi MTDI.</span>
+												</marquee>
+											<button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+									    </div>
+					</div>
+
                     	<!-- Quick stats boxes -->
 							<div class="row">
 								 <div class="col-lg-4">
@@ -103,7 +114,7 @@
                                 
                                 
                                 <div class="col-lg-4">
-                                    <a href="https://kemenkeu.sharepoint.com/:p:/s/ROMADANPASTI-WeeklyReportBiroMadan/EcNdkwMPI4NEvRZfPTKPgFMBgm3-MmWM4cMjohw3hEKB9g?e=dNcgLA" target="_blank">
+                                    <a href="{{url('weekly-report')}}">
                                     <!-- Members online -->
 									<div class="card bg-purple text-white text-center">
 										<div class="card-body">

@@ -16,12 +16,12 @@
 
 
 				<!-- Content area -->
-				<div class="content">
+				{{-- <div class="content"> --}}
 					<div class="col-lg-12">
 				    		<div class="card border border-primary">
-								<div class="card-header bg-primary text-white">
+								{{-- <div class="card-header bg-primary text-white">
 									<h1 class="mb-0">IKU</h1>
-								</div>
+								</div> --}}
 
 								{{-- <div class="card-body"> --}}
 									<iframe class="w-100" height="450" src="http://iku.romadan.id/" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -29,7 +29,7 @@
 							</div>
 				    	</div>
 					</div>
-                </div>
+                {{-- </div> --}}
 				<!-- /content area -->
 
 @endsection

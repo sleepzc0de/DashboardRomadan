@@ -34,7 +34,7 @@
                 </li>
                  <li class="nav-item ">
                     <a href="{{url('/')}}" class="nav-link {{Request::is('/')?'active':''}}">
-                        <i class="ph-aperture"></i>
+                        <i class="ph-monitor"></i>
                         <span>
                             HOME
                         </span>
